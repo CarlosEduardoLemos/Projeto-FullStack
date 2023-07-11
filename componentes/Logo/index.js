@@ -10,7 +10,7 @@ const LogoImage = styled.img`
     margin-right: 10px;
 `
 
-function Logo() {
+function Logo(){
     return (
         <LogoContainer>
             <LogoImage src={logo} alt='logo'/>
