@@ -14,8 +14,8 @@ const Icones = styled.ul`
 
 const icones = [perfil, sacola]
 
-function IconesHeader() {
-    return (
+function IconesHeader(){
+    return(
         <Icones>
             { icones.map( (icone) => (
               <Icone><img src={icone}></img></Icone>

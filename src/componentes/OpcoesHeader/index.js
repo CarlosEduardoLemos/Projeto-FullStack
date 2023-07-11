@@ -19,12 +19,12 @@ const Opcoes = styled.ul`
 
 const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'ESTANTE']
 
-function OpcoesHeader() {
-    return (
+function OpcoesHeader(){
+    return(
         <Opcoes>
             { textoOpcoes.map( (texto) => (
                 <Link to={`/${texto.toLowerCase()}`} ><Opcao><p>{texto}</p></Opcao></Link>
-            ) ) }
+            ))}
       </Opcoes>
     )
 }

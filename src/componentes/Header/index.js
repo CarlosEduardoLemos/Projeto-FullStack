@@ -10,8 +10,8 @@ const HeaderContainer = styled.header`
     justify-content: center;
 `
 
-function Header() {
-    return (
+function Header(){
+    return(
         <HeaderContainer>
             <Link to="/">
                 <Logo/>

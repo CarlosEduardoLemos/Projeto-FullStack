@@ -45,8 +45,8 @@ const ImgLivro = styled.img`
     width: 150px;
 `
 
-function CardRecomenda({titulo, subtitulo, descricao, img}) {
-    return (
+function CardRecomenda({titulo, subtitulo, descricao, img}){
+    return(
         <Card>
             <div>
                 <Titulo tamanhoFonte="16px" cor="#EB9B00" alinhamento="left">{titulo}</Titulo>

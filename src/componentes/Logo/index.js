@@ -13,10 +13,7 @@ const LogoImage = styled.img`
 function Logo() {
     return (
         <LogoContainer>
-            <LogoImage
-                src={logo}
-                alt='logo' 
-            />
+            <LogoImage src={logo} alt='logo'/>
             <p><strong>Alura</strong>Books</p>
        </LogoContainer>
     )
